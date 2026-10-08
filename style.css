@@ -1,0 +1,194 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+
+.d1 {
+    background-image: url(OIP\ \(1\).jpg);
+    background-size: cover;
+    width: auto;
+    height: auto;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+}
+
+.d1 .h12 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 10px 0px;
+    background: rgba(0, 0, 0, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 12px;
+    height: 70px;
+    padding: 0px 30px;
+
+
+}
+
+.d1 .h12 h2 {
+    transition: 0.5s;
+}
+
+
+.d1 nav {
+    text-decoration: none;
+    color: white;
+
+}
+
+.d1 nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    transition: 0.5s;
+    display: inline-block
+}
+
+.d1 .h12 h2:hover {
+    transition: 0.5s;
+    color: blueviolet;
+    transform: scale(1.3);
+}
+
+.h12 nav a:hover {
+    transition: 0.5s;
+    color: blueviolet;
+    transform: scale(2 .1);
+    font-size: x-large;
+}
+
+.s1 {
+    width: 400px;
+    margin: 30px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    height: 200px;
+    border-radius: 25px;
+    transition: 0.5s;
+
+}
+
+.s1:hover {
+    transform: scale(1.1);
+}
+
+.s1 h3 {
+    color: rgb(244, 243, 245);
+    padding: 40px;
+
+
+}
+
+.s1 button {
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    transition: 0.5s;
+
+}
+
+.s1 button:hover {
+    transition: 0.5s;
+    transform: scale(1.3);
+
+}
+
+
+.s1 button a {
+    text-decoration: none;
+    color: white;
+}
+
+.mom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dad {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+hr {
+    font-size: x-large;
+}
+
+#inf {
+
+    direction: rtl;
+    text-align: right;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#inf .h11 {
+    text-align: center;
+    color: rgb(253, 249, 253);
+
+}
+
+p {
+    font-size: 20px;
+}
+
+hr {
+    font-size: 50px;
+}
+
+#inf {
+
+    color: white;
+
+    border-radius: 15px;
+    padding: 50px;
+
+}
+
+
+
+.Big {
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: solid white;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 90px;
+    border-radius: 25px;
+
+
+}
+
+footer{
+        
+         
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: solid white;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 30px;
+    border-radius: 25px;
+    color: white;
+    text-align: right;
+    
+}
+
+footer .fo{
+            width: 40px;
+
+
+}
+
+
+
